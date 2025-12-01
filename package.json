@@ -1,0 +1,31 @@
+{
+  "name": "vpn-h5",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "uni",
+    "dev:h5": "uni -p h5",
+    "build": "uni build",
+    "build:h5": "uni build -p h5",
+    "lint": "eslint --ext .ts,.vue src"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-alpha-3080020230512001",
+    "@dcloudio/uni-ui": "^1.5.5",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.7",
+    "@dcloudio/uni-automator": "3.0.0-alpha-3080020230512001",
+    "@dcloudio/vite-plugin-uni": "^3.0.0",
+    "@types/node": "^20.11.10",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "sass": "^1.69.5",
+    "typescript": "^5.4.0",
+    "vite": "^5.0.10"
+  }
+}
+

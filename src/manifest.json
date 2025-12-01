@@ -1,0 +1,22 @@
+{
+  "name": "VPN 控制台",
+  "appid": "",
+  "description": "面向 VPN 管理的 H5 前端",
+  "versionName": "0.1.0",
+  "versionCode": "100",
+  "transformPx": true,
+  "app": {
+    "background": "#0f172a"
+  },
+  "h5": {
+    "title": "VPN 控制台",
+    "router": {
+      "mode": "hash"
+    },
+    "devServer": {
+      "https": false,
+      "port": 5173
+    }
+  }
+}
+

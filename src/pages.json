@@ -1,0 +1,99 @@
+{
+  "globalStyle": {
+    "navigationStyle": "default",
+    "navigationBarTitleText": "VPN 控制台",
+    "navigationBarBackgroundColor": "#0f172a",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0f172a",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#94a3b8",
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#0f172a",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "总览",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/home.svg",
+        "selectedIconPath": "static/icons/home-active.svg"
+      },
+      {
+        "text": "节点",
+        "pagePath": "pages/nodes/index",
+        "iconPath": "static/icons/nodes.svg",
+        "selectedIconPath": "static/icons/nodes-active.svg"
+      },
+      {
+        "text": "套餐",
+        "pagePath": "pages/plan/index",
+        "iconPath": "static/icons/plan.svg",
+        "selectedIconPath": "static/icons/plan-active.svg"
+      },
+      {
+        "text": "客服",
+        "pagePath": "pages/support/index",
+        "iconPath": "static/icons/support.svg",
+        "selectedIconPath": "static/icons/support-active.svg"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/account/index",
+        "iconPath": "static/icons/account.svg",
+        "selectedIconPath": "static/icons/account-active.svg"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "仪表盘"
+      }
+    },
+    {
+      "path": "pages/nodes/index",
+      "style": {
+        "navigationBarTitleText": "节点列表"
+      }
+    },
+    {
+      "path": "pages/config/index",
+      "style": {
+        "navigationBarTitleText": "配置中心"
+      }
+    },
+    {
+      "path": "pages/plan/index",
+      "style": {
+        "navigationBarTitleText": "套餐与账单"
+      }
+    },
+    {
+      "path": "pages/support/index",
+      "style": {
+        "navigationBarTitleText": "客服与公告"
+      }
+    },
+    {
+      "path": "pages/support/ticket-form",
+      "style": {
+        "navigationBarTitleText": "新建工单"
+      }
+    },
+    {
+      "path": "pages/account/index",
+      "style": {
+        "navigationBarTitleText": "账号设置"
+      }
+    },
+    {
+      "path": "pages/dashboard/usage",
+      "style": {
+        "navigationBarTitleText": "流量详情"
+      }
+    }
+  ]
+}
+
